@@ -1,0 +1,523 @@
+
+            /* bacis1  */
+ *{
+    text-align: center;
+} 
+.opa1 {
+height: 150px;
+width: 150px;
+color: white;
+background-color: orange;
+padding: auto;
+margin: auto;
+}
+
+.opa2 {
+    height: 150px;
+    width: 150px;
+    color: white;
+    background-color: orange;
+    padding: auto;
+    margin: auto;
+    opacity: 0.75;
+    }
+    .opa3 {
+        height: 150px;
+        width: 150px;
+        color: white;
+        background-color: orange;
+        padding: auto;
+        margin: auto;
+        opacity: 0.5;
+
+        }
+        .opa4 {
+            height: 150px;
+            width: 150px;
+            color: white;
+            background-color: orange;
+            padding: auto;
+            margin: auto;
+            opacity: 0.25;
+
+            }
+
+
+        /*  basic 2 */
+        .borderedDiv1 {
+             border: 5px  solid black;
+             overflow: visible;
+             padding: auto;
+            margin: auto;
+             width: 300px;
+            height: 100px;
+
+        }
+
+        .borderedDiv2 {
+            border: 5px  solid black;
+            overflow: hidden;
+            width: 300px;
+            height: 100px;
+            padding: auto;
+            margin: auto;
+        
+       }
+
+       .borderedDiv3 {
+        border: 5px  solid black;
+        overflow: scroll;
+        width: 300px;
+        height: 100px;
+        padding: auto;
+        margin: auto;
+   }
+
+   .borderedDiv4 {
+    border: 5px  solid black;
+    overflow: auto;
+    padding: auto;
+    margin: auto;
+
+    width: 300px;
+    height: 100px;
+    
+    /* basic3 */
+
+}
+
+
+
+#Solid {
+    border: 2px solid black ;
+    height: 50px;
+    width: 200px;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+}
+.dashed 
+    {
+        border: 2px dashed red ;
+        height: 50px;
+        width: 200px;
+        padding: auto;
+        margin: auto;
+}
+
+.dotted  {
+    border: 2px dashed blue ;
+    height: 50px;
+    width: 200px;
+    padding: auto;
+    margin: auto;
+}
+.double  {
+    border: 5px double  purple ;
+    height: 50px;
+    width: 200px;
+    padding: auto;
+    margin: auto;
+}
+.gro  {
+    border: 5px groove palevioletred ;
+    height: 50px;
+    width: 200px;
+    padding: auto;
+    margin: auto;
+}
+.ride {
+
+    border: 5px ridge  greenyellow;
+    height: 50px;
+    width: 200px;
+    padding: auto;
+    margin: auto;
+
+}
+.inset {
+
+    border: 5px inset  yellow;
+    height: 50px;
+    width: 200px;
+    padding: auto;
+    margin: auto;
+}
+ .outset{
+
+    border: 5px  outset  brown ;
+    height: 50px;
+    width: 200px;
+    padding: auto;
+    margin: auto;
+}
+
+/* basic 4 */
+
+#bBonly {
+
+    border: 2px  solid  black ;
+    height: 50px;
+    width: 200px;
+    padding: auto;
+    margin: auto;
+}
+.Oonly {
+
+    outline: auto;
+    height: 50px;
+    width: 200px;
+    padding: auto;
+    margin: auto;
+}
+.bao{
+    border: 5px solid red;
+    outline: 5px dashed yellow;
+    height: 50px;
+    width: 200px;
+    padding: auto;
+    margin: auto;
+}
+
+.owo{
+
+    height: 50px;
+    width: 200px;
+    padding: auto;
+    margin: auto;
+    border: 2px solid green;
+    outline: 2px solid orange;
+    outline-offset: 5px ; 
+
+}
+
+
+/*  basic 5 */
+
+.padding {
+ border: 3px solid purple;
+ background-color: palevioletred;
+padding: 10px 10px 5px 5px;
+}
+/* basic 6 */
+
+.margin{
+
+    border: 3px solid purple;
+    background-color: pink;
+   margin: 30px 10px 40px ;
+
+}
+
+/* basic 7 */
+ .shadow1 {
+    margin: auto;
+    padding: auto;
+    width: 225px;
+    height: 100px;
+box-shadow: 10px 10px 15px grey ;
+font-variant: small-caps;
+background-color: orange;
+border-radius:10px ;
+ }
+ .shadow2 {
+
+    margin: auto;
+    padding: auto;
+    width: 225px;
+    height: 100px;
+box-shadow: 5px 5px 10px grey inset ;
+font-variant: small-caps;
+background-color: orange;
+border-radius:10px ;
+
+ }
+  
+
+ .shadow3 {
+
+    margin: auto;
+    padding: auto;
+    width: 225px;
+    height: 100px;
+   font-variant: small-caps;
+   background-color: orange;
+   border-radius:10px ;
+    box-shadow: 
+        5px 5px 10px rgb(0, 0, 0, 0.3),
+        -5px -5px 10px rgba(255, 0, 0, 0.5); 
+
+
+ }
+
+ /* basic11 */
+
+ .box11 {
+background-color: lightskyblue;
+height: 100px;
+width: 300px;
+border-bottom:  5px dashed blue ;
+border-left: 5px solid red;
+margin: auto;
+         padding: auto;
+ }
+
+ /* basic 12 */
+
+ .pmd{
+
+border: 5px solid rgb(112, 112, 206);
+
+margin: 40px;
+
+height: auto;
+ }
+ 
+
+ .inner{
+
+    background-color: rgb(226, 137, 189);
+    border: 3px dashed red;
+    margin: 40px;
+    padding: 10px;
+ }
+
+
+ /* basic 14 */
+
+ .sh {
+border: 3px  solid red ;
+height: 300px;
+width: 300px;
+ box-shadow: 5px -5px  blue , 10px -10px  rgb(86, 172, 77) , 15px -15px  ; 
+ margin: auto;
+ padding: auto;
+ }
+
+ /* basic 13 */
+
+
+ .pic-study {
+         height: 400px;
+         width: 300px;
+         border: 2px solid rgb(114, 170, 229);
+         overflow: scroll;
+         margin: auto;
+         padding: auto;
+ }
+
+ /* basic 15 */
+
+ .span1 {
+
+   
+    border-radius: 2px;
+    background-color: lightcoral;
+    /* word-spacing: 10px; */
+    margin: 20px;
+    padding: 20px;
+ }
+
+ .span2 {
+
+
+    border-radius: 2px;
+    background-color: rgb(128, 193, 240);
+    /* word-spacing: 10px; */
+    margin: 20px;
+    padding: 20px;
+ }
+
+ .span3 {
+
+
+    border-radius: 2px;
+    background-color: rgb(128, 240, 208);
+    /* word-spacing: 5px; */
+    margin: 20px;
+    padding: 20px;
+ }
+
+ .span4{
+
+    border-radius: 2px;
+    background-color: rgb(223, 240, 128);
+    word-spacing: 10px;
+    margin: 20px;
+    padding: 20px;
+    line-height: 100px; 
+ }
+
+ .span5{
+    border-radius: 2px;
+    background-color: rgb(180, 128, 240);
+    /* word-spacing: 10px; */
+    margin: 20px;
+    padding: 20px;
+    line-height: 100px; 
+ }
+
+ .span6{
+
+    border-radius: 2px;
+    background-color: rgb(249, 241, 10);
+    /* word-spacing: 10px; */
+    margin: 20px;
+    padding: 20px;
+    line-height: 100px; 
+ }
+
+ .span7{
+
+    border-radius: 2px;
+    background-color: rgb(212, 0, 53);
+    /* word-spacing: 10px; */
+    margin: 20px;
+    padding: 20px;
+    line-height: 100px; 
+ }
+
+ .span8{
+
+    border-radius: 2px;
+    background-color: rgb(0, 212, 64);
+    /* word-spacing: 10px; */
+    margin: 20px;
+    padding: 20px;
+    line-height: 100px; 
+ }
+
+ .span1 {
+position: relative;
+top: 60px;
+left: 50px;
+ } 
+
+
+ .span9{
+
+    border-radius: 2px;
+    background-color: rgb(0, 32, 212);
+    /* word-spacing: 10px; */
+    margin: 20px;
+    padding: 20px;
+    line-height: 100px; 
+ }
+
+ .span10{
+
+    border-radius: 2px;
+    background-color: rgb(25, 34, 27);
+    /* word-spacing: 10px; */
+    margin: 20px;
+    padding: 20px;
+    line-height: 100px; 
+ }
+
+ .span11{
+
+    border-radius: 2px;
+    background-color: #98d400;
+    /* word-spacing: 10px; */
+    margin: 20px;
+    padding: 20px;
+    line-height: 100px; 
+ }
+
+ .span12{
+
+    border-radius: 2px;
+    background-color: rgb(212, 0, 141);
+    /* word-spacing: 10px; */
+    margin: 20px;
+    padding: 20px;
+    line-height: 100px; 
+ }
+
+
+ /* basic 16 */
+
+.main , h3 , p {
+
+text-align: left; 
+image-rendering: border-box;
+margin-left: 70px;
+}
+ .img.s {
+position: fixed;
+
+
+ }
+
+ /* basic 17 */
+
+ .navbar{
+        position: sticky;
+        top: 0;
+        background-color: #333;
+        padding: 15px;
+        text-align: left;
+        z-index: 100;
+
+    }
+
+    .navbar a {
+        color: white;
+        text-decoration: none;
+        padding: 10px  20px ;
+    }
+
+
+    /* basic 18 */
+
+     .sunset {
+        position: relative;
+        height: 500px;
+     }
+
+     .sunset img{
+        width: 200px;
+        height: 200px;
+        border-radius: 5px;
+     }
+
+     .sun1 {
+        position: absolute;
+        top:0px;
+        left:0px;
+         z-index: 1; 
+     }
+
+     .sun2 {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+         
+     }
+
+     .sun3 {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+     }
+
+     .sun4 {
+        position: absolute;
+        top: 40px;
+        left: 40px;
+     }
+
+     /* basic19 */
+/* 
+     .bor {
+            
+   border: 2px solid transparent ;
+   border-image: url(woodbg.jpeg) 50 round;
+   transform: translate(-50px, -50px);
+   width:30% ;
+   height: 30%;
+   padding: 15px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+            } */

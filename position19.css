@@ -1,0 +1,18 @@
+body{
+    /* background-color: aquamarine; */
+    padding: 20px
+}
+
+
+h1 {
+    /* background-color: aliceblue; */
+}
+
+p {
+    height: 200px;
+    width: 600px;
+  border-image-source: url(woodbg.jpeg);
+  border-image-width: 20px;
+  border-image-repeat: repeat ;
+  border-image-slice: 20;
+}

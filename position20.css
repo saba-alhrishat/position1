@@ -1,0 +1,96 @@
+*{
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    box-sizing: border-box;
+}
+
+
+nav .n1 {
+ background-color: black;
+ font-size: large;
+ font-weight: bolder;
+ color: white;
+ height: 90px;
+ text-align:center ;
+}
+
+nav .n2 {
+    background-color: gray;
+    height: 40px;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    color: white;
+}
+.m1 img {
+    height: 400px;
+    width: 1600px;
+    imag
+    /* background-image: url(pic\ store.jpeg); */
+}
+
+.m2 {
+    height: 250px;
+    width: 400px;
+    display: grid;
+    grid-column: 300px 300px 300px;
+    display: inline-flex;
+}
+.m2 div {
+    margin: 0;
+    padding: 0;
+}
+.m2 .p1 {
+    border: 5px solid white;
+    height: 350px;
+    width: 350px;
+    background-color: aliceblue;
+   align-content: center;
+}
+.m2 .p2 {
+    border: 5px solid white;
+    height: 250px;
+    width: 250px;
+    background-color: aliceblue;
+    align-content: center;
+
+}
+.m2 .p3 {
+    border: 5px solid white;
+    height: 200px;
+    width: 200px;
+    background-color: aliceblue;
+    align-content: center;
+}
+.p1 .p11 {
+height: 200px;
+width: 200px;
+background-color: gray;
+position: relative;
+left: 40px; 
+align-content: center;
+}
+
+ span {
+    color: green;
+}
+div footer {
+    background-color: black;
+    font-size: large;
+    font-weight: bolder;
+    color: white;
+    height: 90px;
+    text-align:center ;
+
+}
+    .ff  {
+        display: inline-flex;
+        background-color: black;
+    }
+    .ff button {
+        background-color: black;
+        position: sticky;
+        bottom: 1px;
+    }
